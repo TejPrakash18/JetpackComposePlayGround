@@ -105,7 +105,7 @@ fun getColor(btn : String) : Color{
     if(btn == "C" || btn == "AC")
         return Color(0xff205b7a)
     if(btn == "(" || btn == ")")
-        return Color.Gray
+        return Color(0xff000000)
     if(btn == "/" || btn == "*" || btn == "+" || btn == "-" || btn == "=")
         return Color(0xFFa2bbcf)
     return Color(0xFF142f44)
