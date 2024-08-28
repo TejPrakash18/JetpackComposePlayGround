@@ -103,10 +103,10 @@ fun CalculatorButton(btn : String,onClick : ()-> Unit) {
 
 fun getColor(btn : String) : Color{
     if(btn == "C" || btn == "AC")
-        return Color(0xFFF44336)
+        return Color(0xff205b7a)
     if(btn == "(" || btn == ")")
         return Color.Gray
     if(btn == "/" || btn == "*" || btn == "+" || btn == "-" || btn == "=")
-        return Color(0xFFFF9800)
-    return Color(0xFF00C8C9)
+        return Color(0xFFa2bbcf)
+    return Color(0xFF142f44)
 }
